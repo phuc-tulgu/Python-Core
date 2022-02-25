@@ -1,0 +1,12 @@
+a = int(input())
+
+for i in range(1, 5 + 1):
+    print(f'{a} * {i} =', i * a)
+'''
+n = int(input())
+b = 1
+
+while b <= 5:
+    print("{0} * {1} =".format(n,b),n*b)
+    b += 1
+'''
