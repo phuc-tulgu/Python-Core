@@ -1,0 +1,14 @@
+# Create an array with 10 elements
+lst = []
+n = int(input())
+
+for i in range(n):
+    lst.append(float(input()))
+
+print(f"Наименьший элемент: ", min(lst))
+print(lst[len(lst) - 1])
+# Change position the lowest value elements with the last elements in array
+print(lst)
+print("sau khi chuyen doi so be nhat voi phan tu be nhat")
+lst[lst.index(min(lst))], lst[len(lst) - 1] = lst[len(lst) - 1], lst[lst.index(min(lst))]
+print(lst)
