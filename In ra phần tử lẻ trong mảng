@@ -1,0 +1,24 @@
+lst = []
+n = int(input())
+
+for i in range(n):
+    lst.append(int(input()))
+
+answer = []
+for v in lst:
+    if v % 2 != 0:
+        answer.append(v)
+
+print(answer)
+
+'''
+n = int(input())
+lst = []
+
+for i in range(n):
+      lst.append(int(input()))
+      for x in lst:
+            if x % 2 == 0:
+                  lst.remove(x)
+print(lst)
+'''
