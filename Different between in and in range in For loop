@@ -1,0 +1,10 @@
+Sơ qua mới học thì hai cái này trong vòng lặp For khác nhau tí xíu
++ Cái in thì nên ghi thẳng list ra chứ không cần phải hàm thêm độ dài len hay gì khác 
+
+For i in lst:
++ Cái in range thì khác tí là sau nó liền kề nên có ngoặc (theo nhiều TH thấy là vậy)
+
+For i in range(lst):
+For i in range(len(lst)):
+
+Và đừng quên dấu hai chấm : sau vòng loop nhé
