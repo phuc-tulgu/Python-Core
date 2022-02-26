@@ -8,3 +8,5 @@ For i in range(lst):
 For i in range(len(lst)):
 
 Và đừng quên dấu hai chấm : sau vòng loop nhé
+
+Cái in chỉ dùng được cho LIST còn range thì cập nhật bài ở Quản trị mạng
