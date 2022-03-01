@@ -1,0 +1,18 @@
+input_string = input('Enter elements of a list separated by space \n')
+#print("\n")
+
+lst = input_string.split()
+# Print list
+print('List: ', lst)
+
+# Convert each item to int type
+for i in range(len(lst)):
+    # Convert each item to float type
+    lst[i] = float(lst[i])
+
+print(f"Наименьший элемент: ", min(lst))
+# Print(lst[len(lst) - 1])
+# Change position the lowest value elements with the last elements in array
+print("Array after changing the smallest value with the last value")
+lst[lst.index(min(lst))], lst[len(lst) - 1] = lst[len(lst) - 1],lst[lst.index(min(lst))]
+print(lst)
